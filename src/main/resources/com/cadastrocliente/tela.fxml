@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cadastrocliente.TelaController">
+   <children>
+      <TextField fx:id="Nome" layoutX="100.0" layoutY="102.0" prefHeight="25.0" prefWidth="266.0" />
+      <TextField fx:id="CEP" layoutX="100.0" layoutY="147.0" promptText="99999-999" />
+      <TextField fx:id="Cidade" layoutX="101.0" layoutY="227.0" prefHeight="25.0" prefWidth="215.0" />
+      <TextField fx:id="Telefone" layoutX="101.0" layoutY="266.0" prefHeight="25.0" prefWidth="215.0" />
+      <TextField fx:id="Numero" layoutX="434.0" layoutY="187.0" />
+      <TextField fx:id="Estado" layoutX="434.0" layoutY="227.0" prefHeight="25.0" prefWidth="149.0" />
+      <Button layoutX="286.0" layoutY="145.0" mnemonicParsing="false" onAction="#Endereco" text="Buscar" />
+      <Button layoutX="209.0" layoutY="345.0" mnemonicParsing="false" onAction="#limpar" text="Limpar" />
+      <Button layoutX="308.0" layoutY="345.0" mnemonicParsing="false" onAction="#gravar" text="Gravar" />
+      <Label layoutX="43.0" layoutY="106.0" text="nome" />
+      <Label layoutX="222.0" layoutY="37.0" text="Cadastro de Clientes">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Rua" layoutX="100.0" layoutY="187.0" prefHeight="25.0" prefWidth="266.0" />
+      <Label layoutX="48.0" layoutY="149.0" text="CEP" />
+      <Label layoutX="48.0" layoutY="191.0" prefHeight="17.0" prefWidth="31.0" text="Rua:" />
+      <Label layoutX="43.0" layoutY="231.0" text="Cidade:" />
+      <Label layoutX="39.0" layoutY="270.0" text="Telefone:" />
+      <Label layoutX="377.0" layoutY="191.0" text="Número:" />
+      <Label layoutX="381.0" layoutY="231.0" text="Estado:" />
+   </children>
+</AnchorPane>
